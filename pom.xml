@@ -12,6 +12,7 @@
         <module>testng2</module>
         <module>testng1</module>
         <module>testng3</module>
+        <module>testng4</module>
     </modules>
 
     <dependencies>
