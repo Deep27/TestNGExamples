@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Multiple tests suite" verbose="1">
+    <!-- представим тесты, которые запускаются под разными учетными записями -->
+    <test name="Admin test">
+        <parameter name="user" value="admin" />
+        <packages>
+            <package name="sample02"/>
+        </packages>
+    </test>
+    <test name="User test">
+        <parameter name="user" value="user" />
+        <packages>
+            <package name="sample02"/>
+        </packages>
+    </test>
+</suite>

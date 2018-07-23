@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups example suite" verbose="1">
+    <test name="Test 1">
+        <groups>
+            <run>
+                <include name="positive"/>  <!-- включить группу -->
+                <exclude name="broken"/>    <!-- исключить группу -->
+            </run>
+        </groups>
+        <packages>
+            <package name="sample01"/>
+        </packages>
+    </test>
+</suite>
