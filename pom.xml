@@ -14,6 +14,7 @@
         <module>testng3</module>
         <module>testng4</module>
         <module>testng5</module>
+        <module>testng6</module>
     </modules>
 
     <dependencies>
